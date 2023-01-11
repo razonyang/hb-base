@@ -6,9 +6,17 @@ code {
 
 pre {
     border-radius: 0.125rem;
-    padding: 0.25rem 0.5rem;
+    padding: 0.5rem;
 
     code {
         background: inherit;
+    }
+}
+
+.highlight {
+    pre {
+        code {
+            padding: 0;
+        }
     }
 }
